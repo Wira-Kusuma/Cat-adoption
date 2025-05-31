@@ -19,7 +19,7 @@ header {
     display: flex;
     width: 97%;
     max-width: 97%;
-    position: absolute;
+    position: relative;
     top: 0;
     background-color: rgba(255, 255, 0, 0.5);
     justify-content: space-between;
@@ -36,4 +36,44 @@ header a {
     font-weight: none;
     text-decoration: none;
     color: black;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+    width: 100%;
+}
+.stage1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.stage1 img {
+    border-radius: 100px 100px 10px 10px;
+}
+
+.stage1 p {
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+}
+
+.stage1 p button {
+    height: 40px;
+    border: 3px yellow solid;
+    border-radius: 20px;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.stage2 img {
+    margin-top: 100px;
+    width: 50px;
 }
