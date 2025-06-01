@@ -64,6 +64,7 @@ header a {
 
 .stage1 img {
     border-radius: 100px 100px 10px 10px;
+    width: 300px;
 }
 
 .stage1 p {
@@ -92,7 +93,7 @@ header a {
 }
 
 .stage2 img {
-    margin-top: 50px;
+    margin-top: 30px;
     width: 50px;
 }
 
