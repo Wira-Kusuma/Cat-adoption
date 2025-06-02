@@ -1,5 +1,5 @@
 * {
-    font-family: cursive, 'Baloo 2', 'poppins';
+    font-family: cursive, 'poppins';
 }
 
 body {
@@ -150,6 +150,11 @@ header a {
 }
 
 @media screen and (max-width:700px) {
+
+    * {
+    font-family:'Baloo 2';
+
+    }
 
     body,
     html {
