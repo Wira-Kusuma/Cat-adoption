@@ -7,7 +7,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     display: block;
-
+    scroll-behavior: smooth;
 }
 
 header {
@@ -45,23 +45,23 @@ header a {
     flex-direction: column;
     width: 100%;
     user-select: none;
-    background-image: url(img/Cats-bg.jpg);
+    background-image: url(img/sleepingCat-bg.webp);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    backdrop-filter: blur(8px);
 }
 
 .stage1 {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content:flex-start;
+    align-items:center;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     margin-top: 180px;
+    color: white;
 }
 
 .stage1 img {
@@ -69,19 +69,12 @@ header a {
     width: 300px;
 }
 
-.stage1 p {
+.stage1 h1, .stage1 h2 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    row-gap: 20px;
     flex-direction: column;
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 0, 0.5);
-    border: 0px;
-    border-radius: 200px;
-    height: 300px;
-    width: 300px;
-    box-shadow: 0 0 20px 20px rgba(255, 255, 0, 0.5);
+    font-size: 50px;
 }
 
 .stage1 p button {
@@ -110,7 +103,6 @@ header a {
     width: 100%;
     row-gap: 20px;
     background-image: url(img/paw-bg.jpg);
-    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
