@@ -7,19 +7,14 @@ body{
     margin: 0;
     overflow-x: hidden;
     display: block;
-    background-image: url(img/Cats-bg.jpg);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 60vh;
-    backdrop-filter: blur(2px);
 }
 
 header {
     display: flex;
     width: 100%;
     max-width: 100%;
-    position: relative;
+    position: fixed;
+    z-index: 1;
     top: 0;
     background-color: rgba(255, 255, 0, 0.5);
     justify-content: space-between;
@@ -44,13 +39,17 @@ header a {
 }
 
 .main-content {
-    margin-top: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
     user-select: none;
-    height: 65%;
+    background-image: url(img/Cats-bg.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    backdrop-filter: blur(2px);
 }
 .stage1 {
     display: flex;
@@ -59,7 +58,7 @@ header a {
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 180px;
 }
 
 .stage1 img {
@@ -103,7 +102,6 @@ header a {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    margin-top: 300px;
     
 }
 
