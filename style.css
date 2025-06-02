@@ -104,6 +104,7 @@ header a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 20px;
     width: 100%;
     row-gap: 20px;
 
@@ -165,6 +166,14 @@ header a {
         display: flex;
         flex-direction: column;
         row-gap: 100px;
+    }
+
+    .stage1 {
+        margin-top: 100px;
+    }
+
+    .stage2 img {
+        margin-top: 0px;
     }
 
     .card {
