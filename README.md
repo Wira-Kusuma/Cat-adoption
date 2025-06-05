@@ -3,6 +3,9 @@ This website is about Cat adoption, where you can see the cat you want adopt
 
 # contribution welcome
 you can do contribution with make other page, improve design or animation.
+What i need?
+-nav bar for responsive screen
+-new page for nav
 
 ## Technology used: 
 -Html <br>
