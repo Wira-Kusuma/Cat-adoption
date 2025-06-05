@@ -53,6 +53,7 @@ header a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    margin-bottom: 100px;
 }
 
 .stage1 {
