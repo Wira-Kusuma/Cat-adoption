@@ -30,7 +30,7 @@ header h1 {
 
 nav {
     display: flex;
-    column-gap: 50px;
+    column-gap: 30px;
     margin-right: 30px;
 }
 
