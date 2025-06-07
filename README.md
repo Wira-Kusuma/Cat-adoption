@@ -3,7 +3,7 @@ This website is about Cat adoption, where you can see the cat you want adopt
 
 # contribution welcome
 you can do contribution with make other page, improve design or animation. <br>
-What i need? <br>
+What i need? <br> <br>
 -nav bar for responsive screen <br>
 -new page for nav <br>
 
