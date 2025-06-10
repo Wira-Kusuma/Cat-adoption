@@ -1,48 +1,46 @@
 # 🐾 Cat Adoption
-
-![GitHub repo size](https://img.shields.io/github/repo-size/Wira-Kusuma/Cat-adoption?style=flat-square)
-![GitHub stars](https://img.shields.io/github/stars/Wira-Kusuma/Cat-adoption?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/Wira-Kusuma/Cat-adoption?style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/Wira-Kusuma/Cat-adoption?style=flat-square)
-
 ---
 
 ### Cat Adoption Website
 
-This website was created to help people find and adopt cats easily. Browse through adorable cat profiles and pick your favorite furry friend!
+This website was created to help people find and adopt cats easily, donate to street cat programs, and spread awareness about proper cat care. Navigate through dedicated pages for adoption, donation, and education to support street cats and find your next furry friend!
 
 ---
 
 ## 🚀 Features
 
-- View a list of available cats for adoption
-- Photos & short descriptions for each cat
-- (Coming soon) Responsive navigation & additional pages
+- **Adoption Page**: View profiles of cats available for adoption, complete with photos, descriptions, and locations.
+- **Donation Page**: Learn how to support the street cat program financially and what your donations will be used for.
+- **About Page**: Understand the mission and activities of the Cat Rescue initiative.
+- **Education Section**: Spread awareness and share useful information about caring for cats responsibly.
+- **Responsive Navigation**: Dedicated HTML pages for each navigation link.
 
 ---
 
 ## 🌐 Live Demo
 
-> **(Optional: Add your demo link here if available)**
 > [View Live Demo on GitHub Pages](https://wira-kusuma.github.io/Cat-adoption/)
 
 ---
 
 ## 🛠️ Built With
 
-- HTML
-- CSS
-- JavaScript
+- **HTML**: For structure and page navigation.
+- **CSS**: For styling and responsive design.
+- **JavaScript**: For interactivity and dynamic features.
 
 ---
 
 ## 🖼️ Preview
 
-### Main Page
-![Main Page Preview](https://github.com/user-attachments/assets/400e4d34-9f5d-4cd7-893a-c5f348777d87)
+### Home Page
+The homepage introduces the mission of the Cat Rescue initiative and allows navigation to other sections like Adoption, Donation, and About.
 
-### Responsive Preview
-![Screen Preview](https://github.com/user-attachments/assets/75ea7d99-18c6-4c74-815c-2b566f89954d)
+### Adoption Page
+Browse through adorable cat profiles with photos and details about their gender, age, and location.
+
+### Donation Page
+Detailed information about how donations are utilized to benefit street cats, including TNR (Trap Neuter Return) programs and medical aid.
 
 ---
 
@@ -51,23 +49,32 @@ This website was created to help people find and adopt cats easily. Browse throu
 Contributions are very welcome!  
 You can help by:
 
-- Creating a responsive navbar
-- Adding new pages for navigation
-- Improving the design and animations
-- Finding and fixing bugs
+- Adding new features or pages to the website.
+- Enhancing the design and animations for better user experience.
+- Creating a contact form or feedback page.
+- Reporting and fixing bugs.
 
 **How to contribute:**
-1. Fork this repository
-2. Create a new feature/bug branch (`git checkout -b new-feature`)
-3. Commit your changes
-4. Push to your forked repo
-5. Open a Pull Request
+1. Fork this repository.
+2. Create a new feature/bug branch:
+   ```bash
+   git checkout -b new-feature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add new-feature"
+   ```
+4. Push to your forked repository:
+   ```bash
+   git push origin new-feature
+   ```
+5. Open a Pull Request.
 
 ---
 
 ## 📄 License
 
-MIT License
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
