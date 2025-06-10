@@ -1,0 +1,9 @@
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    width: 70%;
+    row-gap: 30px;
+}
