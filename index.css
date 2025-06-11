@@ -217,7 +217,7 @@ footer {
         padding: 5px;
         border-radius: 10px;
         bottom: 70px;
-        width: fit-content;
+        width: 90%;
         background-color: yellowgreen;
         gap: 5px;
         left: 50%;
@@ -229,6 +229,9 @@ footer {
         padding: 15px;
         background-color: yellow;
         border-radius: 10px;
+        flex-grow: 1;
+        text-align: center;
+        font-size: 20px;
     }
 
     .main-content,.stage1 {
