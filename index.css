@@ -209,8 +209,26 @@ footer {
         overflow-x: hidden;
     }
 
-    header nav {
-        display: none;
+    nav {
+        display: flex;
+        position: fixed;
+        font-weight: bold;
+        border: 2px solid;
+        padding: 5px;
+        border-radius: 10px;
+        bottom: 70px;
+        width: fit-content;
+        background-color: yellowgreen;
+        gap: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    nav a {
+        border: 2px solid rgba(0, 0, 0, 0.5);
+        padding: 15px;
+        background-color: yellow;
+        border-radius: 10px;
     }
 
     .main-content,.stage1 {
