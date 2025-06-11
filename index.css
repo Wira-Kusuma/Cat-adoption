@@ -153,15 +153,16 @@ button {
     padding: 20px;
     width: fit-content;
     height: 30px;
-    border: 2px solid yellowgreen;
+    border: 2px solid greenyellow;
     border-radius: 10px;
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: greenyellow;
     transition: ease-in-out 0.2s;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: yellow;
+    border: 2px solid darkgreen;
+    background-color: rgba(173, 255, 47, 0.5);
     transform: scale(0.91);
 }
 
