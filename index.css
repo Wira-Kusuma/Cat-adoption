@@ -158,12 +158,14 @@ button {
     background-color: greenyellow;
     transition: ease-in-out 0.2s;
     cursor: pointer;
+    box-shadow: 6px 6px 24px 0 rgba(0,0,0,0.2);
 }
 
 button:hover {
     border: 2px solid darkgreen;
     background-color: rgba(173, 255, 47, 0.5);
     transform: scale(0.91);
+    box-shadow: none;
 }
 
 .program {
@@ -224,6 +226,7 @@ footer {
         gap: 5px;
         left: 50%;
         transform: translateX(-50%);
+        box-shadow: 6px 6px 24px 0 rgba(0,0,0,0.2);
     }
 
     nav a {
@@ -235,6 +238,7 @@ footer {
         text-align: center;
         font-size: 20px;
         height: fit-content;
+        box-shadow: 6px 6px 24px 0 rgba(0,0,0,0.2);
     }
 
     .main-content,.stage1 {
