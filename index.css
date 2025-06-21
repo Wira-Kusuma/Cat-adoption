@@ -18,7 +18,8 @@ header {
     position: fixed;
     z-index: 1;
     top: 0;
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: #fde2b28a;
+    backdrop-filter: blur(4px);
     justify-content: space-between;
     align-items: center;
     user-select: none;
@@ -29,10 +30,6 @@ nav {
     display: flex;
     column-gap: 30px;
     
-}
-nav a:hover {
-    transform: scale(1.11);
-    font-size: larger;
 }
 
 header a {
@@ -104,7 +101,7 @@ header a {
     flex-direction: row;
     flex-wrap: wrap;
     width: 45%;
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: #fde2b28a;
     padding: 20px;
     column-gap: 20px;
 }
@@ -153,17 +150,17 @@ button {
     padding: 20px;
     width: fit-content;
     height: 30px;
-    border: 2px solid greenyellow;
+    border: 2px solid #ffb347;
     border-radius: 10px;
-    background-color: greenyellow;
+    background: transparent;
     transition: ease-in-out 0.2s;
     cursor: pointer;
     box-shadow: 6px 6px 24px 0 rgba(0,0,0,0.2);
 }
 
 button:hover {
-    border: 2px solid darkgreen;
-    background-color: rgba(173, 255, 47, 0.5);
+    border: 2px solid #ffb347;
+    background-color: #ffb347;
     transform: scale(0.91);
     box-shadow: none;
 }
@@ -197,7 +194,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: #fde2b28a;
 }
 
 @media screen and (max-width:700px) {
@@ -211,28 +208,57 @@ footer {
         overflow-x: hidden;
     }
 
-    nav {
+    .burger {
+        font-size: 36px;
         position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
+        bottom: 35px;
+        right: 40px;
+        width: 60px;
         height: 60px;
-        padding: 10px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        background-color: rgba(255, 255, 0, 0.5);
+        background-color: #ffb347;
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        border-radius: 50px;
+        font-weight: bold;
+        transition: ease-in-out 0.3s all;
+        user-select: none;
+    }
+
+    .burger:active {
+        transform: scale(0.95);
+    }
+
+    nav {
+        position: fixed;
+        transform: translateY(540px);
+        background-color: #ffb347;
+        padding: 15px;
+        border-radius: 10px;
+        display: none;
+    }
+
+    .efek {
+        animation: ease-in-out 0.3s forwards efek;
+    }
+
+    @keyframes efek {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
     }
 
     nav a {
-        font-size: 17px;
-        border: 1px solid greenyellow;
-        padding: 5px 10px;
-        border-radius: 10px;
-        background-color: greenyellow;
+        display: flex;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    nav.active {
+        display: flex;
     }
 
     .main-content,.stage1 {
