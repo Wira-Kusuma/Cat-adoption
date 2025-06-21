@@ -1,4 +1,4 @@
 document.querySelector(".burger").addEventListener("click", function() {
-    document.querySelector("nav").classList.add("efek");
-    document.querySelector("nav").classList.toggle("active");
+    document.querySelector(".navb").classList.toggle("efek");
+    document.querySelector(".navb").classList.toggle("active");
 });

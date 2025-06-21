@@ -29,7 +29,11 @@ header {
 nav {
     display: flex;
     column-gap: 30px;
-    
+}
+
+nav a:hover {
+    color: rgba(0, 0, 0, 0.61);
+
 }
 
 header a {
@@ -229,13 +233,17 @@ footer {
         transform: scale(0.95);
     }
 
-    nav {
+    nav {display: none;}
+
+    .navb {
         position: fixed;
-        transform: translateY(540px);
+        bottom: 120px;
+        right: 30px;
         background-color: #ffb347;
         padding: 15px;
         border-radius: 10px;
         display: none;
+        animation: ease-in-out 0.3s alternate-reverse efek;
     }
 
     .efek {
@@ -245,19 +253,23 @@ footer {
     @keyframes efek {
         from {
             opacity: 0;
+            transform: translateY(0px);
         }
         to {
             opacity: 1;
+            transform: translateY(10px);
         }
     }
 
-    nav a {
+    .navb a {
         display: flex;
         font-size: 18px;
         font-weight: bold;
+        text-decoration: none;
+        color: black;
     }
 
-    nav.active {
+    .active {
         display: flex;
     }
 
